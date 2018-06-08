@@ -26,17 +26,45 @@ After some time a wolf really does attack. The boy cries “WOLF” but no one c
 
 ![](wolf.png)
 
-Another rather funny way to remember Type 1 and 2 errors is below 
+Another rather funny way to remember Type 1 and 2 errors: 
 
 ![](errors.jpg)
 
+#
 
-### Alpha and Beta 
+### ALPHA and BETA 
 
-**Alpha:** is the probability of a type I error i.e. finding a difference when a difference does not exist. 
+**Alpha (α):** is the probability of a type I error i.e. finding a difference when a difference does not exist. 
 
 Most medical literature uses an alpha cut-off of 5% (0.05), indicating a 5% chance that a significant difference is actually due to chance and is not a true difference. 
 
-**Beta:** is the probability of a type II error i.e. not detecting a difference when one actually exists. 
+**Beta (β):** is the probability of a type II error i.e. not detecting a difference when one actually exists. 
 
 Beta is directly related to study power (Power = 1 – β) which we shall see in the next lesson. Most medical literature uses a beta cut-off of 20% (0.2), indicating a 20% chance that a significant difference is missed. 
+
+#
+
+### Why is an α level of 0.05 chosen as a cut-off for statistical significance?
+
+The α level of 0.05 is considered the best balance to avoid excessive type I or type II errors as shown below: 
+[](alphap5.png)
+
+IF we decide the value of alpha to say .35 i.e. 35%, the cut-off points will look as shown below:
+[](alphap35.png)
+
+* This increases the chance of rejecting the null hypothesis
+* The risk of a Type II error (false negative) is REDUCED
+* But the risk of a Type I error (false positive) is INCREASED
+
+similarly, if we decide to use a very small value of alpha, it'll change the outcome as follows:
+[](alphalow.png)
+
+* This increases the chance of accepting the null hypothesis
+* The risk of a Type I error (false positive) is REDUCED
+* But the risk of a Type II error (false negative) is INCREASED
+
+From above, we can see that in statistical hypothesis testing, the more we try and avoid a Type I error (false positive), the more likely a Type II error (false negative) will occur. 
+
+Researchers have found that an alpha level of 5% provides a good balance. 
+
+
