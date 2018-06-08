@@ -7,25 +7,36 @@ SWBATS
 
 Let's think of Aesop's Fable about the boy and the wolf. 
 
-A little boy is protecting a flock of sheep from wolves. If a wolf comes, he is supposed to ring a bell and cry “WOLF”, so that the men from the village can come and stop the wolf from attacking the flock. A few days pass and the boy is bored as no wolf ever comes. For a bit of fun, he pretends that a wolf has arrived and attacking the sheep. So he cries out loud "WOLF", as he is supposed to do. 
+A little boy is protecting a flock of his sheep from wolves. If a wolf comes, he is supposed to cry “WOLF”, so that the men from the village can come and stop the wolf from attacking the flock. A few days pass and the boy is bored as no wolf ever comes. For a bit of fun, he pretends that a wolf has arrived and attacking the sheep. So he cries out loud "WOLF", as he is supposed to do. 
 
 For the villagers
 
-> The Null Hypothesis is that there is no wolf.
-> the Alternative Hypothesis is that there is a wolf. 
+>The Null Hypothesis is that there is no wolf.
+>the Alternative Hypothesis is that there is a wolf. 
 
-Villagers come running, and praise the boy even when they find no wolf, they end up believing his story that the wolf actually came but ran off as he cried "WOLF".
+Villagers come running to save the sheep, but don't see any wolf. The boy laughs at them and tells them that he played a trick on them just for fun. 
 
-> A type 1 or false positive error has occurred (i.e. rejecting the Null Hypothesis when it is true i.e. villagers believing the boy when there was no wolf)
+>A "TYPE I" or "FALSE POSITIVE" error has occurred (i.e. rejecting the Null Hypothesis when it is true i.e. villagers believing the boy when there was no wolf)
 
-The boy enjoys the praise, so he repeats this again. This time he is not praised as villagers no longer believe that there was actually a wolf. 
+The boy enjoys this very much, so he repeats this again and villagers come running as they did before. All the villagers get really angry and decide not to believe him again. 
 
-After some time a wolf really does attack. The boy rings his bell and cries “WOLF” but no one comes for help, thinking that he is playing the trick again. The wolf attacks and takes away one of the sheep. 
+After some time a wolf really does attack. The boy cries “WOLF” but no one comes for help, thinking that he is playing the trick again. The wolf attacks and kills all the sheep. 
 
-> A type 2 or false negative error has occurred. (i.e. accepting Null Hypothesis when it is actually false i.e. e.g villagers not believing the boy when there actually was a wolf)
+>A "TYPE II" or "FALSE NEGATIVE" error has occurred. (i.e. accepting Null Hypothesis when it is actually false i.e. e.g villagers not believing the boy when there actually was a wolf)
 
 ![](wolf.png)
 
 Another rather funny way to remember Type 1 and 2 errors is below 
 
 ![](errors.jpg)
+
+
+### Alpha and Beta 
+
+**Alpha:** is the probability of a type I error i.e. finding a difference when a difference does not exist. 
+
+Most medical literature uses an alpha cut-off of 5% (0.05), indicating a 5% chance that a significant difference is actually due to chance and is not a true difference. 
+
+**Beta:** is the probability of a type II error i.e. not detecting a difference when one actually exists. 
+
+Beta is directly related to study power (Power = 1 – β) which we shall see in the next lesson. Most medical literature uses a beta cut-off of 20% (0.2), indicating a 20% chance that a significant difference is missed. 
