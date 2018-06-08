@@ -68,5 +68,5 @@ similarly, if we decide to use a very small value of alpha, it'll change the out
 From above, we can see that in statistical hypothesis testing, the more we try and avoid a Type I error (false positive), the more likely a Type II error (false negative) will occur. 
 
 Researchers have found that an alpha level of 5% provides a good balance. 
-
+[Here](https://shiny.rit.albany.edu/stat/betaprob/) is an excellent tool to visualize type 1 and two errors. 
 
