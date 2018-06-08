@@ -47,17 +47,17 @@ Beta is directly related to study power (Power = 1 – β) which we shall see in
 ### Why is an α level of 0.05 chosen as a cut-off for statistical significance?
 
 The α level of 0.05 is considered the best balance to avoid excessive type I or type II errors as shown below: 
-[](alphap5.png)
+![](alphap5.png)
 
 IF we decide the value of alpha to say .35 i.e. 35%, the cut-off points will look as shown below:
-[](alphap35.png)
+![](alphap35.png)
 
 * This increases the chance of rejecting the null hypothesis
 * The risk of a Type II error (false negative) is REDUCED
 * But the risk of a Type I error (false positive) is INCREASED
 
 similarly, if we decide to use a very small value of alpha, it'll change the outcome as follows:
-[](alphalow.png)
+![](alphalow.png)
 
 * This increases the chance of accepting the null hypothesis
 * The risk of a Type I error (false positive) is REDUCED
