@@ -3,6 +3,7 @@ Type I and II errors in hypothesis testing.
 
 SWBATS
 
+### Statistical Errors - An analogy from Aesop's Fables
 
 Let's think of Aesop's Fable about the boy and the wolf. 
 
@@ -24,3 +25,7 @@ After some time a wolf really does attack. The boy rings his bell and cries “W
 > A type 2 or false negative error has occurred. (i.e. accepting Null Hypothesis when it is actually false i.e. e.g villagers not believing the boy when there actually was a wolf)
 
 ![](wolf.png)
+
+Another rather funny way to remember Type 1 and 2 errors is below 
+
+![](errors.jpg)
