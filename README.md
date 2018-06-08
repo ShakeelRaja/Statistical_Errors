@@ -30,6 +30,8 @@ Another rather funny way to remember Type 1 and 2 errors:
 
 ![](errors.jpg)
 
+[More examples](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors#Example_1) of false positive and negative from Wikipedia.  
+
 #
 
 ### ALPHA and BETA 
