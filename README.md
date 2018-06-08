@@ -23,4 +23,4 @@ After some time a wolf really does attack. The boy rings his bell and cries “W
 
 > A type 2 or false negative error has occurred. (i.e. accepting Null Hypothesis when it is actually false i.e. e.g villagers not believing the boy when there actually was a wolf)
 
-[](wolf.png)
+![](wolf.png)
